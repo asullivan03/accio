@@ -15,6 +15,7 @@
 		F7F6C4031D0B533200118F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F6C4011D0B533200118F13 /* LaunchScreen.storyboard */; };
 		F7F6C40E1D0B533200118F13 /* Fetch_ioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F6C40D1D0B533200118F13 /* Fetch_ioTests.m */; };
 		F7F6C4191D0B533200118F13 /* Fetch_ioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F6C4181D0B533200118F13 /* Fetch_ioUITests.m */; };
+		F7F6C4281D0B7DF000118F13 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F6C4271D0B7DF000118F13 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F7F6C4141D0B533200118F13 /* Fetch.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fetch.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F6C4181D0B533200118F13 /* Fetch_ioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fetch_ioUITests.m; sourceTree = "<group>"; };
 		F7F6C41A1D0B533200118F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F6C4261D0B7DF000118F13 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F7F6C4271D0B7DF000118F13 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F7F6C3F21D0B533200118F13 /* Fetch.io */ = {
 			isa = PBXGroup;
 			children = (
+				F7F6C4261D0B7DF000118F13 /* SWRevealViewController.h */,
+				F7F6C4271D0B7DF000118F13 /* SWRevealViewController.m */,
 				F7F6C3F61D0B533200118F13 /* AppDelegate.h */,
 				F7F6C3F71D0B533200118F13 /* AppDelegate.m */,
 				F7F6C3F91D0B533200118F13 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				F7F6C3FB1D0B533200118F13 /* ViewController.m in Sources */,
 				F7F6C3F81D0B533200118F13 /* AppDelegate.m in Sources */,
 				F7F6C3F51D0B533200118F13 /* main.m in Sources */,
+				F7F6C4281D0B7DF000118F13 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				F7F6C41F1D0B533200118F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7F6C4201D0B533200118F13 /* Build configuration list for PBXNativeTarget "Fetch.ioTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				F7F6C4221D0B533200118F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7F6C4231D0B533200118F13 /* Build configuration list for PBXNativeTarget "Fetch.ioUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				F7F6C4251D0B533200118F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
