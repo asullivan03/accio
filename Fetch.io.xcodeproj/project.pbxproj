@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F724BD3E1D0D112D000A63B6 /* Bariol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F724BD3D1D0D112D000A63B6 /* Bariol.ttf */; };
+		F724BD411D1046D7000A63B6 /* accioLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F724BD401D1046D7000A63B6 /* accioLogo.jpg */; };
+		F7DD0FBD1D10753C00102E03 /* Shihan.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7DD0FBC1D10753C00102E03 /* Shihan.otf */; };
+		F7DD0FC61D108C6600102E03 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DD0FC51D108C6600102E03 /* SignUpViewController.m */; };
+		F7DD0FCA1D109E3B00102E03 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DD0FC91D109E3B00102E03 /* LoginViewController.m */; };
 		F7F6C3F51D0B533200118F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F6C3F41D0B533200118F13 /* main.m */; };
 		F7F6C3F81D0B533200118F13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F6C3F71D0B533200118F13 /* AppDelegate.m */; };
 		F7F6C3FB1D0B533200118F13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F6C3FA1D0B533200118F13 /* ViewController.m */; };
@@ -36,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F724BD3D1D0D112D000A63B6 /* Bariol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol.ttf; sourceTree = "<group>"; };
+		F724BD401D1046D7000A63B6 /* accioLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = accioLogo.jpg; sourceTree = "<group>"; };
+		F7DD0FBC1D10753C00102E03 /* Shihan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shihan.otf; sourceTree = "<group>"; };
+		F7DD0FC51D108C6600102E03 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F7DD0FC71D108C7D00102E03 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		F7DD0FC81D109E2800102E03 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F7DD0FC91D109E3B00102E03 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		F7F6C3F01D0B533200118F13 /* Fetch.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F6C3F41D0B533200118F13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7F6C3F61D0B533200118F13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F724BD3F1D1046C0000A63B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F724BD401D1046D7000A63B6 /* accioLogo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		F7F6C3E71D0B533100118F13 = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +124,17 @@
 		F7F6C3F21D0B533200118F13 /* Fetch.io */ = {
 			isa = PBXGroup;
 			children = (
+				F7DD0FBC1D10753C00102E03 /* Shihan.otf */,
+				F724BD3F1D1046C0000A63B6 /* Images */,
+				F724BD3D1D0D112D000A63B6 /* Bariol.ttf */,
 				F7F6C4261D0B7DF000118F13 /* SWRevealViewController.h */,
 				F7F6C4271D0B7DF000118F13 /* SWRevealViewController.m */,
 				F7F6C3F61D0B533200118F13 /* AppDelegate.h */,
 				F7F6C3F71D0B533200118F13 /* AppDelegate.m */,
+				F7DD0FC71D108C7D00102E03 /* SignUpViewController.h */,
+				F7DD0FC51D108C6600102E03 /* SignUpViewController.m */,
+				F7DD0FC81D109E2800102E03 /* LoginViewController.h */,
+				F7DD0FC91D109E3B00102E03 /* LoginViewController.m */,
 				F7F6C3F91D0B533200118F13 /* ViewController.h */,
 				F7F6C3FA1D0B533200118F13 /* ViewController.m */,
 				F7F6C3FC1D0B533200118F13 /* Main.storyboard */,
@@ -248,9 +275,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DD0FBD1D10753C00102E03 /* Shihan.otf in Resources */,
 				F7F6C4031D0B533200118F13 /* LaunchScreen.storyboard in Resources */,
 				F7F6C4001D0B533200118F13 /* Assets.xcassets in Resources */,
 				F7F6C3FE1D0B533200118F13 /* Main.storyboard in Resources */,
+				F724BD411D1046D7000A63B6 /* accioLogo.jpg in Resources */,
+				F724BD3E1D0D112D000A63B6 /* Bariol.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F6C3FB1D0B533200118F13 /* ViewController.m in Sources */,
+				F7DD0FC61D108C6600102E03 /* SignUpViewController.m in Sources */,
+				F7DD0FCA1D109E3B00102E03 /* LoginViewController.m in Sources */,
 				F7F6C3F81D0B533200118F13 /* AppDelegate.m in Sources */,
 				F7F6C3F51D0B533200118F13 /* main.m in Sources */,
 				F7F6C4281D0B7DF000118F13 /* SWRevealViewController.m in Sources */,
